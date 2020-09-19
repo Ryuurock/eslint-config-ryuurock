@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log
+*.sublime-project
+.idea
+.bat
+debug.log
+yarn-error.log
+.vscode
+package-lock.json
