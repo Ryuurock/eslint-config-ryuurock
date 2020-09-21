@@ -30,7 +30,7 @@ module.exports = {
     {
       files: ['**/*.ts?(x)'],
       parser: '@typescript-eslint/parser',
-      extends: ['prettier/@typescript-eslint', require.resolve('./rules/typescript')],
+      extends: ['prettier', 'prettier/@typescript-eslint', require.resolve('./rules/typescript')],
     },
   ],
 };

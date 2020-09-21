@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ryuurock",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A collection of various general eslint for typescript",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "lint:format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,html,json,md}'",
     "lint:es": "eslint --ext js,jsx,ts,tsx",
     "lint:es-fix": "eslint --ext js,jsx,ts,tsx --fix",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git commit -m \"docs: add changelog\" --no-verify"
   },
   "repository": {
     "type": "github",
@@ -44,13 +44,13 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "conventional-changelog-cli": "^2.0.34",
+    "conventional-changelog-cli": "^2.1.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
     "typescript": "^4.0.3"
   },
   "peerDependencies": {
-    "typescript": "^3.0.0"
+    "typescript": "^3.0.0 || ^4.0.0"
   },
   "husky": {
     "hooks": {

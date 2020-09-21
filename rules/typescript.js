@@ -1,12 +1,9 @@
 module.exports = {
+  plugins: ['@typescript-eslint'],
   rules: {
     // 允许 @ts-ignore
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-ignore.md
     '@typescript-eslint/ban-ts-ignore': 'off',
-
-    // 接口名称以 I 开头
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/interface-name-prefix.md
-    '@typescript-eslint/interface-name-prefix': ['error', { prefixWithI: 'always' }],
 
     // 不允许未使用的变量，部分情况除外
     // https://eslint.org/docs/rules/no-unused-vars

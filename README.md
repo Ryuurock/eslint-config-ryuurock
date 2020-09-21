@@ -14,3 +14,7 @@ module.exports = {
 ```
 
 ## Enjoy
+
+## Override the prettier configuration
+
+You can refer to the configuration documentation of [prettier](https://prettier.io/docs/en/configuration.html)
