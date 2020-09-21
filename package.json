@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ryuurock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of various general eslint for typescript",
   "main": "index.js",
   "scripts": {
